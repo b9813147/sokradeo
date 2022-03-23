@@ -1,0 +1,97 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "热门影片",
+      "newest": "最新影片"
+    },
+    "channels": {
+      "excellent": "频道",
+      "popular": "热门学院频道"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "无",
+  "undefined": "未指定",
+  "operators": "操作",
+  "name": "名称",
+  "description": "描述",
+  "teacher": "授课教师",
+  "subjectField": "领域",
+  "subject": "学科",
+  "eduStage": "学段",
+  "grade": "年级",
+  "lecture_type": "授课类型",
+  "lecture_date": "授课日期",
+  "locale": "授课语言",
+  "watch": "影片",
+  "report": "报告",
+  "notReady": "课例审核中",
+  "annexes": {
+    "hiTeachNote": "电子笔记",
+    "lessonPlan": "TPC教案",
+    "material": "教材课件",
+    "link": "连结",
+    "other": "其他"
+  },
+  "messages": {
+    "no_content": "查无苏格拉底影片"
+  },
+  "sokrates": "苏格拉底课例资源",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "全部"
+  },
+  "filters": {
+    "eduStage": "学段",
+    "grade": "年级",
+    "subjectField": "学科",
+    "lectureType": "类型",
+    "tbaFeature": "教法特征",
+    "year": "视频年份"
+  },
+  "_component-filter": "------------------",
+  "sorting": "排序",
+  "sorts": {
+    "hits": "点阅数",
+    "addedTime": "上架时间",
+    "tbaTechInteractIdx": "科技互动",
+    "tbaMethodAnal": "教法应用"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "频道影片",
+  "channelTotal": "影片总数",
+  "publicChannel": "公开影片数",
+  "clickTotal": "点阅数",
+  "doubleGreenLightTotal": "双绿灯影片",
+  "searchInChannel": "频道内搜寻",
+  "filterChannelTotal": "筛选影片数",
+  "expert": "专家",
+  "admin": "管理员",
+  "general": "成员",
+  "guest": "访客",
+  "rating": "教研 (分类)",
+  "_component-myMovie": "------------------",
+  "_component-userInfo": "------------------",
+  "logout": "登出",
+  "user": {
+    "name": "姓名"
+  },
+  "channels": {
+    "joined": "参与频道",
+    "subscribed": "订阅频道",
+    "invited": "邀请通知",
+    "my": "我的频道",
+    "personalFilm": "我的影片"
+  },
+  "playlists": {
+    "mine": "我的切片清单",
+    "favorite": "我的最爱",
+    "subscribed": "订阅清单"
+  },
+  "_component-login": "------------------",
+  "login": "登入",
+  "message": {
+    "login": "请登入醍摩豆帐号"
+  }
+}

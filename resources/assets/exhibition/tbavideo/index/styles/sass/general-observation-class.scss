@@ -1,0 +1,90 @@
+.general-obsrv-class-container {
+  color: #1c1c1c;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  .general-obsrv-class-content {
+    background: linear-gradient(
+      315deg,
+      rgb(252, 248, 250) 0%,
+      rgb(255, 255, 255) 100%
+    );
+    border-radius: 20px;
+    box-shadow: 0 5px 14px 0 rgba(163, 144, 144, 0.7);
+
+    h2 {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h3 {
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #207a95;
+    }
+
+    .general-obsrv-class-title {
+      letter-spacing: 2px;
+      padding: 10px;
+    }
+
+    .general-obsrv-class-subtitle {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 100%;
+    }
+
+    .general-obsrv-class-sync-container {
+      padding: 20px;
+
+      .general-obsrv-class-sync-title {
+        font-size: clamp(12px, 2vw, 16px);
+        padding-bottom: 10px;
+      }
+
+      .general-obsrv-class-sync-img {
+        max-height: 200px;
+        max-width: 200px;
+        padding: 5px 0 5px 0;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .general-obsrv-class-sync-note {
+        color: #646464;
+        padding: 10px 0 10px 0;
+      }
+    }
+
+    .general-obsrv-class-async-container {
+      padding: 20px;
+
+      .general-obsrv-class-async-title {
+        font-size: clamp(12px, 2vw, 16px);
+        padding-bottom: 10px;
+      }
+
+      .general-obsrv-class-async-icon {
+        color: #add8e6;
+      }
+
+      .general-obsrv-class-async-btn {
+        margin-top: 10px;
+      }
+
+      .general-obsrv-class-async-note {
+        color: #646464;
+        padding: 5px 0 5px 0;
+      }
+    }
+  }
+}

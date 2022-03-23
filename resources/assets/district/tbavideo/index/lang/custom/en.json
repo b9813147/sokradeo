@@ -1,0 +1,97 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "Popular Videos",
+      "newest": "Latest Videos"
+    },
+    "channels": {
+      "excellent": "Channels",
+      "popular": "Popular Channels"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "none",
+  "undefined": "Undefined",
+  "operators": "operators",
+  "name": "name",
+  "description": "description",
+  "teacher": "Teacher",
+  "subjectField": "Subject Area",
+  "subject": "Subject",
+  "eduStage": "Educational Stage",
+  "grade": "Grade",
+  "lecture_type": "Lesson Type",
+  "lecture_date": "Course Date",
+  "locale": "Locale",
+  "watch": "Video",
+  "report": "Report",
+  "notReady": "Not Ready",
+  "annexes": {
+    "hiTeachNote": "E-Note",
+    "lessonPlan": "TPC Plan",
+    "material": "Material",
+    "link": "Link",
+    "other": "Other"
+  },
+  "messages": {
+    "no_content": "No Sokrates Video"
+  },
+  "sokrates": "Sokrates Lesson Resources",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "All"
+  },
+  "filters": {
+    "eduStage": "Educational Stage",
+    "grade": "Grade",
+    "subjectField": "Subject Area",
+    "lectureType": "Lesson Type",
+    "tbaFeature": "Pedagogical Method",
+    "year": "Year"
+  },
+  "_component-filter": "------------------",
+  "sorting": "sorting",
+  "sorts": {
+    "hits": "Views",
+    "addedTime": "Time Posted",
+    "tbaTechInteractIdx": "Technological Interaction",
+    "tbaMethodAnal": "Pedogogical Application"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "Group Channel",
+  "channelTotal": "Total Videos",
+  "publicChannel": "Public Videos",
+  "clickTotal": "Total Views",
+  "doubleGreenLightTotal": "Double Green Videos",
+  "searchInChannel": "Search in channel.....",
+  "filterChannelTotal": "Filter channel total",
+  "expert": "Expert",
+  "admin": "Admin",
+  "general": "General",
+  "guest": "Guest",
+  "rating": "Study (Category)",
+  "_component-myMovie": "------------------",
+  "_component-userInfo": "------------------",
+  "logout": "Log out",
+  "user": {
+    "name": "Name"
+  },
+  "channels": {
+    "joined": "Joined Channels",
+    "subscribed": "Subscribed Channels",
+    "invited": "Invitation Notification",
+    "my": "My Channels",
+    "personalFilm": "My Videos"
+  },
+  "playlists": {
+    "mine": "My Fragments List",
+    "favorite": "My Favorites",
+    "subscribed": "Subscribed Playlists"
+  },
+  "_component-login": "------------------",
+  "login": "Log in",
+  "message": {
+    "login": "Please login to the TEAM Model ID to confirm that you have the permission to read the content."
+  }
+}

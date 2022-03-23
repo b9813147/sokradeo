@@ -1,0 +1,525 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "熱門影片",
+      "recommended": "推薦影片",
+      "newest": "最新影片"
+    },
+    "channels": {
+      "excellent": "頻道",
+      "popular": "熱門學院頻道"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "無",
+  "undefined": "未指定",
+  "operators": "操作",
+  "name": "名稱",
+  "description": "描述",
+  "teacher": "授課教師",
+  "subjectField": "領域",
+  "subject": "學科",
+  "eduStage": "學段",
+  "grade": "年級",
+  "lecture_type": "授課類型",
+  "lecture_date": "授課日期",
+  "locale": "授課語言",
+  "watch": "影片",
+  "review": "評分",
+  "report": "報告",
+  "notReady": "僅本人觀看",
+  "annexes": {
+    "hiTeachNote": "電子筆記",
+    "lessonPlan": "TPC教案",
+    "material": "教材課件",
+    "link": "連結",
+    "other": "其他"
+  },
+  "editorModal": {
+    "title": "編輯課例資料",
+    "contentTitle": "課例名稱",
+    "teacher": "老師",
+    "habookId": "醍摩豆帳號",
+    "desc": "描述",
+    "subject": "學科",
+    "grade": "年級",
+    "courseCore": "課程脈絡",
+    "observationFocus": "觀課焦點",
+    "thumbnail": "視頻截圖",
+    "hiTeachNote": "電子筆記",
+    "lessonPlan": "TPC教案",
+    "material": "教材課件",
+    "submit": "確定",
+    "cancel": "取消",
+    "success": "更新成功",
+    "error": "操作發生錯誤"
+  },
+  "editorVideoModal": {
+    "title": "上傳傳統課例",
+    "remark": "僅限 mp4 格式 [<1.5GB]",
+    "video": "影片",
+    "success": "更新成功",
+    "error": "操作發生錯誤",
+    "upload": "上傳",
+    "format_error": "格式錯誤",
+    "file_limit": "超過檔案限制"
+  },
+  "tbaVideoTimePointModal": {
+    "title": "調整觀議課標記時間點",
+    "subTitle": "將所有觀議課標記時間點",
+    "mode": {
+      "inc": "提前",
+      "dec": "延後"
+    },
+    "seconds": "秒",
+    "cancel": "取消",
+    "submit": "確定"
+  },
+  "sokObsrvClassModal": {
+    "title": "蘇格拉底觀議課",
+    "btn": "啟動蘇格拉底觀議課",
+    "sync": {
+      "title": "同步觀議課",
+      "desc": "同步觀議課：先議課再上傳影片",
+      "note": "點擊圖示後開始觀議課"
+    },
+    "async": {
+      "title": "非同步觀議課",
+      "desc": "非同步觀議課：先上傳影片再議課",
+      "note": "上傳影片:"
+    }
+  },
+  "baseModal": {
+    "delConfirm": "刪除這些數據?",
+    "cancelBtn": "取消",
+    "delBtn": "刪除"
+  },
+  "messages": {
+    "no_content": "查無蘇格拉底影片",
+    "error":"操作發生錯誤",
+    "success":"成功",
+    "favAddSuccess": "添加到 [我的最愛影片]",
+    "favRemoveSuccess": "已從 [我的最愛影片] 刪除"
+  },
+  "sokrates": "蘇格拉底課例資源",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "全部"
+  },
+  "filters": {
+    "eduStage": "學習階段",
+    "grade": "年級",
+    "subjectField": "領域",
+    "lectureType": "類型",
+    "tbaFeature": "教法特徵",
+    "year": "影片年份",
+    "no-search": "公開影片沒有符合搜尋的項目 ......."
+  },
+  "_component-filter": "------------------",
+  "sorting": "排序",
+  "sorts": {
+    "hits": "點閱數",
+    "addedTime": "上架時間",
+    "tbaTechInteractIdx": "科技互動",
+    "tbaMethodAnal": "教法應用"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "頻道影片",
+  "channelTotal": "總影片數",
+  "publicChannel": "公開影片數",
+  "clickTotal": "被點閱數",
+  "videosObserved": "議課數",
+  "tbaMarkerCount": "被標記數",
+  "publicTbaMarkerCount": "我的公開標記",
+  "ownerTbaMarkerCount": "我的本人標記",
+  "doubleGreenLightTotal": "雙綠燈影片",
+  "favoriteVideos": "我的最愛影片",
+  "watchHistory": "觀課數",
+  "clearWatchHistory": "清除所有觀課數",
+  "searchInChannel": "頻道內搜尋",
+  "filterChannelTotal": "篩選影片數",
+  "expert": "專家",
+  "admin": "管理員",
+  "general": "成員",
+  "guest": "訪客",
+  "rating": "分類",
+  "doubleGreenLight": "雙綠燈",
+  "global": "公開",
+  "totalReviews": "標記總數",
+  "key": "序號",
+  "lessonName": "課例名稱",
+  "export": "匯出",
+  "dutyMessage": "頻道身份",
+  "image": "圖示",
+  "_component-myMovie": "------------------",
+  "myMovie": {
+    "lessonPlan": "我的教案",
+    "material": "我的課件",
+    "generalObsrv": "通用型觀議課"
+  },
+  "_component-userInfo": "------------------",
+  "logout": "登出",
+  "user": {
+    "name": "姓名",
+    "teamModelId": "用戶編號",
+    "defaultChannel": "預設學校頻道",
+    "setChannel": "設置頻道",
+    "noChannel": "未設定",
+    "accountSetting": "帳號管理",
+    "msg": {
+      "updating": "更新中..."
+    }
+  },
+  "channels": {
+    "joined": "參與頻道",
+    "subscribed": "訂閱頻道",
+    "invited": "邀請通知",
+    "my": "我的頻道",
+    "personalFilm": "我的蘇格拉底",
+    "my-movie": "我的影片"
+  },
+  "notifications": {
+    "title": "我的通知",
+    "apply": "報名/繳件"
+  },
+  "comments": {
+    "title": "我的標記",
+    "col": {
+      "index": "編號",
+      "lessonName": "課例名稱",
+      "teacher": "授課教師",
+      "time": "時間點",
+      "tag": "分類",
+      "comment": "標記內容",
+      "date": "完成日期",
+      "attachment": "附件",
+      "link": "鏈接"
+    },
+    "clipboard": {
+      "success": "已複製到剪貼簿",
+      "error": "操作發生錯誤"
+    },
+    "filter": {
+      "search": "標記內容搜尋..."
+    }
+  },
+  "playlists": {
+    "mine": "我的切片清單",
+    "favorite": "我的最愛",
+    "subscribed": "訂閱清單"
+  },
+  "_component-login": "------------------",
+  "login": "登入",
+  "message": {
+    "login": "為保障原創權益，請登入醍摩豆帳號觀看。"
+  },
+  "_component-default-channel-prompt": "------------------",
+  "defaultChannelPrompt": {
+    "msg": "邀請您加入智連環學校頻道，以取得更豐富的蘇格拉底課例資源與體驗",
+    "btnYes": "加入",
+    "btnNo": "不"
+  },
+  "observation": {
+    "observation": "列印",
+    "observation_1": "蘇格拉底數位觀議課紀錄表",
+    "observation_2": "單元主題",
+    "observation_3": "授課教師",
+    "observation_4": "醍摩豆ID",
+    "observation_5": "觀課日期",
+    "observation_6": "教學時間",
+    "observation_7": "教學地點",
+    "observation_8": "頻道名稱",
+    "observation_9": "班級課程",
+    "observation_10": "學生人數",
+    "observation_11": "課例資源",
+    "observation_12": "ㄧ、課例簡介",
+    "observation_13": "二、觀議課紀錄",
+    "observation_14": "觀課人員",
+    "observation_15": "課程脈絡",
+    "observation_16": "觀課焦點",
+    "observation_17": "標記數",
+    "observation_18": "時間點",
+    "observation_19": "標記者",
+    "observation_20": "分類",
+    "observation_21": "內容",
+    "observation_22": "附件",
+    "observation_23": "三、附件(觀議課照片、圖片、影片、錄音等)",
+    "observation_24": "觀議課記錄表",
+    "observation_25": "四、蘇格拉底報告",
+    "observation_26": "次/人",
+    "observation_27": "學生",
+    "observation_28": "學生反饋次數",
+    "observation_30": "五、蘇格拉底教法應用(P) - {year}年全球常模參照表",
+    "observation_norm_table_col": {
+      "item": {
+        "title": "項目",
+        "norm": "全球常模({year}年)",
+        "content": "本課例"
+      },
+      "group": {
+        "teaching_method_app": {
+          "title": "教法應用",
+          "item_1": "P1小組學習",
+          "item_2": "P2全班互動",
+          "item_3": "P3生本決策",
+          "item_4": "P4全班測驗",
+          "item_5": "P5個人學習",
+          "item_6": "P6多元評價"
+        },
+        "diff": {
+          "title": "差異化",
+          "item_1": "同步差異"
+        },
+        "consolidation": {
+          "title": "合併指數",
+          "item_1": "T指數",
+          "item_2": "P指數"
+        },
+        "feedback": "反饋次數"
+      }
+    },
+    "observation_attachment": {
+      "img": "照片",
+      "video": "影片",
+      "audio": "錄音"
+    }
+  },
+  "sokratesLink": "參與同步蘇格拉底觀議課",
+  "qrCodeHint": "手機掃碼同步議課",
+  "iesLink": "前往醍摩豆雲平台IES5",
+  "globalManagement": "平台管理",
+  "activityChannel": {
+    "introduction": "簡介",
+    "description": "活動內容",
+    "currentStatus": "活動狀態",
+    "submissionStatus": "交件狀態",
+    "taskStatus": "任務",
+    "userStatus": {
+      "empty": "沒有提交",
+      "submitted": "影片已繳交"
+    },
+    "activityStatus": {
+      "activity": {
+        "registration": {
+          "title": "登記",
+          "subTitle": ""
+        },
+        "submission": {
+          "title": "交件階段",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "評審階段",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "公佈成績",
+          "subTitle": ""
+        }
+      },
+      "training": {
+        "registration": {
+          "title": "申請授權",
+          "subTitle": "申請參加培訓活動，並取得HiTeach培訓授權序號"
+        },
+        "submission": {
+          "title": "實作任務",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "評審階段",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "考核認證",
+          "subTitle": ""
+        }
+      }
+    },
+    "videoUploadArea": "影片繳交區",
+    "deadline": "期限",
+    "searching": "搜尋中...",
+    "submissionReminder": "繳交前請先確認影片與課例資源符合活動需求，並尊重智慧財產權，保障原創者權益",
+    "submitSelectedVideo": "確定繳交所選影片",
+    "removeSelectedVideo": "取消",
+    "instruction": {
+      "title": "繳交影片",
+      "option1": "請從下方[符合條件的影片]區，挑選影片繳交",
+      "option2": "請先到 [我的蘇格拉底] -> [我的影片]區，完善蘇格拉底課例資料，再進行作品繳交。",
+      "option3": "請先在AI智慧教研中心錄製課例或上傳課例，並完善課例資料後，再進行作品繳交"
+    },
+    "type": "類型",
+    "class": "組別",
+    "myVideos": "符合條件的影片",
+    "searchVideo": "影片搜尋...",
+    "eligibilityRequirement": {
+      "title": "規則",
+      "msg": {
+        "hasMaterial": "影片必須有 [教材課件]",
+        "hasTPC": "影片必須有 [TPC教案]",
+        "isDoubleGreen": "影片必須有 [雙綠燈]"
+      }
+    },
+    "selectVideo": "加入繳交區",
+    "reviewingComponent": {
+      "col": {
+        "index": "編號",
+        "video": "影片",
+        "type": "類型",
+        "class": "組別",
+        "reviewStatus": "評審狀態"
+      },
+      "cell": {
+        "pending": "待審",
+        "reviewed": "已審"
+      }
+    },
+    "modal": {
+      "submission": {
+        "confirmation": "上傳這部影片?",
+        "desc": "繳交後進入審查狀態，無法再更換影片提交."
+      },
+      "deletion": {
+        "confirmation": "刪除這部影片?",
+        "desc": ""
+      },
+      "confirm": "確認",
+      "cancel": "取消"
+    },
+    "msg": {
+      "success": "成功",
+      "error": "錯誤",
+      "missing": "未找到數據",
+      "notAllowed": "不允許",
+      "alreadySubmitted": "影片已提交",
+      "fullParticipants": "參加人數已滿",
+      "joined": "您已成功加入活動",
+      "HiTeachLicense": "HiTeach培訓授權序號",
+      "registration": "我要參加",
+      "review": "在審查過程中",
+      "end": "活動已結束. 謝謝您的參與!!",
+      "completion": "任務完成",
+      "isOver": "截止日期已過"
+    }
+  },
+  "contentReview": {
+    "pending": {
+      "title": "待審影片",
+      "btn": "我要評分"
+    },
+    "reviewed": {
+      "title": "已審影片",
+      "btn": "已評分",
+      "editBtn": "編輯"
+    },
+    "deadline": "期限",
+    "msg": {
+      "success": "成功",
+      "error": "操作發生錯誤",
+      "empty": "沒有影片",
+      "missing": "未找到數據",
+      "loading": "加載中..."
+    },
+    "modal": {
+      "title": "評分",
+      "inputMode": {
+        "single": "個別",
+        "all": "全部"
+      },
+      "scoreRange": "分數 (0-100)",
+      "contentPractice": "教材實踐",
+      "teachingProcess": "教學過程",
+      "teachingDesign": "教學設計",
+      "innovation": "融合創新",
+      "teachingApplication": "技術應用",
+      "teachingEffect": "教學效果",
+      "comment": "評語",
+      "commentHint": "最多{wordLimit}字",
+      "submit": "確定",
+      "cancel": "取消"
+    }
+  },
+  "qrcode": {
+    "shares": "掃碼分享"
+  },
+  "_component-obsrv-class": "------------------",
+  "genObsrvClass": {
+    "title": "蘇格拉底觀議課",
+    "btn": "啟動蘇格拉底觀議課",
+    "sync": {
+      "title": "同步觀議課",
+      "desc": "同步觀議課：先議課再上傳影片",
+      "note": "點擊圖示後開始觀議課"
+    },
+    "async": {
+      "title": "非同步觀議課",
+      "desc": "非同步觀議課：先上傳影片再議課",
+      "note": "上傳影片:"
+    }
+  },
+  "obsrvClass": {
+    "title": "蘇格拉底觀議課",
+    "input": {
+      "channel": "學校頻道",
+      "lessonName": "課例名稱",
+      "teacher": "授課老師",
+      "lessonSharing": "課例分享",
+      "classification": "教研分類",
+      "subject": "學科",
+      "grade": "年級",
+      "duration": "觀議課時長"
+    },
+    "choiceInput": {
+      "lessonSharing": {
+        "private": "不公開",
+        "public": "頻道內公開",
+        "global": "全平台公開"
+      },
+      "duration": {
+        "hour": "小時"
+      }
+    },
+    "btn": {
+      "setup": "設定",
+      "back": "上",
+      "next": "下",
+      "start": "開始",
+      "finish": "結束"
+    },
+    "label": {
+      "sokApp": "蘇格拉底議課APP",
+      "sokAppInvitation": " 邀請加入蘇格拉底觀議課",
+      "sokAppJoining": "快速加入蘇格拉底觀議課",
+      "sokAppUrlJoining": "或使用瀏覽器網址加入",
+      "url": "URL",
+      "lessonExample": "的課例",
+      "startHint": "※如有影片錄製需求時，在開始觀議課時請同步啟動錄影"
+    },
+    "msg": {
+      "success": "成功",
+      "error": "錯誤",
+      "remainingSpace": "頻道剩餘空間: ",
+      "generalObsrvAuth": "通用觀議課授權: ",
+      "enable": "啟用",
+      "disable": "禁用",
+      "on": "開啟",
+      "off": "關閉",
+      "elapsedTime": "已進行時間: ",
+      "startTime": "開始時間: ",
+      "endTime": "預計結束時間: ",
+      "classNumber": "教室編號",
+      "pinNumber": "驗證碼",
+      "obsrvNumber": "觀議課人數",
+      "commentNumber": "標記數",
+      "setupSuccess": "設置成功",
+      "classStart": "觀議課開始",
+      "classEnd": "觀議課結束",
+      "classEnding": "觀議課即將結束",
+      "extraTime": "增加了額外的時間",
+      "confirmation": "確認",
+      "classEndConfirmation": "您確定要結束課程嗎?",
+      "copySuccess": "內容已複製到剪貼簿"
+    }
+  }
+}

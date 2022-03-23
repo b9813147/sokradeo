@@ -1,0 +1,97 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "熱門影片",
+      "newest": "最新影片"
+    },
+    "channels": {
+      "excellent": "頻道",
+      "popular": "熱門學院頻道"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "無",
+  "undefined": "未指定",
+  "operators": "操作",
+  "name": "名稱",
+  "description": "描述",
+  "teacher": "授課教師",
+  "subjectField": "領域",
+  "subject": "學科",
+  "eduStage": "學段",
+  "grade": "年級",
+  "lecture_type": "授課類型",
+  "lecture_date": "授課日期",
+  "locale": "授課語言",
+  "watch": "影片",
+  "report": "報告",
+  "notReady": "課例審核中",
+  "annexes": {
+    "hiTeachNote": "電子筆記",
+    "lessonPlan": "TPC教案",
+    "material": "教材課件",
+    "link": "連結",
+    "other": "其他"
+  },
+  "messages": {
+    "no_content": "查無蘇格拉底影片"
+  },
+  "sokrates": "蘇格拉底課例資源",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "全部"
+  },
+  "filters": {
+    "eduStage": "學習階段",
+    "grade": "年級",
+    "subjectField": "學科",
+    "lectureType": "類型",
+    "tbaFeature": "教法特徵",
+    "year": "影片年份"
+  },
+  "_component-filter": "------------------",
+  "sorting": "排序",
+  "sorts": {
+    "hits": "點閱數",
+    "addedTime": "上架時間",
+    "tbaTechInteractIdx": "科技互動",
+    "tbaMethodAnal": "教法應用"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "頻道影片",
+  "channelTotal": "影片總數",
+  "publicChannel": "公開影片數",
+  "clickTotal": "點閱數",
+  "doubleGreenLightTotal": "雙綠燈影片",
+  "searchInChannel": "頻道內搜尋",
+  "filterChannelTotal": "篩選影片數",
+  "expert": "專家",
+  "admin": "管理員",
+  "general": "成員",
+  "guest": "訪客",
+  "rating": "教研 (分類)",
+  "_component-myMovie": "------------------",
+  "_component-userInfo": "------------------",
+  "logout": "登出",
+  "user": {
+    "name": "姓名"
+  },
+  "channels": {
+    "joined": "參與頻道",
+    "subscribed": "訂閱頻道",
+    "invited": "邀請通知",
+    "my": "我的頻道",
+    "personalFilm": "我的影片"
+  },
+  "playlists": {
+    "mine": "我的切片清單",
+    "favorite": "我的最愛",
+    "subscribed": "訂閱清單"
+  },
+  "_component-login": "------------------",
+  "login": "登入",
+  "message": {
+    "login": "請登入醍摩豆帳號確認您有權限讀取本頁內容"
+  }
+}

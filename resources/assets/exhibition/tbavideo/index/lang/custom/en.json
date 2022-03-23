@@ -1,0 +1,524 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "Popular Videos",
+      "recommended": "Recommended Videos",
+      "newest": "Latest Videos"
+    },
+    "channels": {
+      "excellent": "Channels",
+      "popular": "Popular Channels"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "none",
+  "undefined": "Undefined",
+  "operators": "operators",
+  "name": "name",
+  "description": "description",
+  "teacher": "Teacher",
+  "subjectField": "Subject Area",
+  "subject": "Subject",
+  "eduStage": "Educational Stage",
+  "grade": "Grade",
+  "lecture_type": "Lesson Type",
+  "lecture_date": "Course Date",
+  "locale": "Language",
+  "watch": "Video",
+  "review": "Review",
+  "report": "Report",
+  "notReady": "Private",
+  "annexes": {
+    "hiTeachNote": "E-Note",
+    "lessonPlan": "TPC Plan",
+    "material": "Material",
+    "link": "Link",
+    "other": "Other"
+  },
+  "editorModal": {
+    "title": "Edit Video Data",
+    "contentTitle": "Video Name",
+    "teacher": "Teacher",
+    "habookId": "HABOOK ID",
+    "desc": "Description",
+    "subject": "Subject",
+    "grade": "Grade",
+    "courseCore": "Course Core",
+    "observationFocus": "Observation Focus",
+    "thumbnail": "Video Screenshot",
+    "hiTeachNote": "E-Note",
+    "lessonPlan": "TPC Plan",
+    "material": "Material",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "success": "Update Successfully",
+    "error": "Error"
+  },
+  "editorVideoModal": {
+    "title": "Upload video",
+    "remark": "Mp4 format only [<1.5GB]",
+    "video": "Video File",
+    "success": "Update Successfully",
+    "error": "Error",
+    "upload": "Upload",
+    "format_error": "wrong format",
+    "file_limit": "File limit exceeded"
+  },
+  "tbaVideoTimePointModal": {
+    "title": "Adjust comment timepoints",
+    "subTitle": "Change the time points of all comments",
+    "mode": {
+      "inc": "Move Forward",
+      "dec": "Move Backward"
+    },
+    "seconds": "second(s)",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "sokObsrvClassModal": {
+    "title": "Sokrates Observation",
+    "btn": "Start Sokrates Observation Class",
+    "sync": {
+      "title": "Synchronous Observation",
+      "desc": "Synchronous Observation: Make discussion before uploading video",
+      "note": "Click on the icon to start a lesson"
+    },
+    "async": {
+      "title": "Asynchronous Observation",
+      "desc": "Asynchronous Observation: Upload video before discussion",
+      "note": "Upload video:"
+    }
+  },
+  "baseModal": {
+    "delConfirm": "Would you like to delete?",
+    "cancelBtn": "Cancel",
+    "delBtn": "Delete"
+  },
+  "messages": {
+    "no_content": "No Sokrates Video",
+    "error": "Error",
+    "success":"Success",
+    "favAddSuccess": "Added to [My Favorite Videos]",
+    "favRemoveSuccess": "Removed from [My Favorite Videos]"
+  },
+  "sokrates": "Sokrates Lesson Resources",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "All"
+  },
+  "filters": {
+    "eduStage": "Educational Stage",
+    "grade": "Grade",
+    "subjectField": "Subject Area",
+    "lectureType": "Lesson Type",
+    "tbaFeature": "Pedagogical Method",
+    "year": "Year",
+    "no-search": "No public items match your search ........"
+  },
+  "_component-filter": "------------------",
+  "sorting": "sorting",
+  "sorts": {
+    "hits": "Views",
+    "addedTime": "Time Posted",
+    "tbaTechInteractIdx": "Technological Interaction",
+    "tbaMethodAnal": "Pedogogical Application"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "Group Channel",
+  "channelTotal": "Total Videos",
+  "publicChannel": "Public Videos",
+  "clickTotal": "Views Received",
+  "videosObserved": "Videos Observed",
+  "tbaMarkerCount": "Comments Received",
+  "publicTbaMarkerCount": "My Public Comments",
+  "ownerTbaMarkerCount": "My Private Comments",
+  "doubleGreenLightTotal": "Double Green Videos",
+  "favoriteVideos": "My Favorite Videos",
+  "watchHistory": "Videos Viewed",
+  "clearWatchHistory": "Clear all videos viewed",
+  "searchInChannel": "Search in channel.....",
+  "filterChannelTotal": "Filter channel total",
+  "expert": "Expert",
+  "admin": "Admin",
+  "general": "General",
+  "guest": "Guest",
+  "rating": "Category",
+  "doubleGreenLight": "Double Green Light",
+  "global": "Public",
+  "totalReviews": "# of Reviews",
+  "key": "No.",
+  "lessonName": "Lesson Name",
+  "export": "Export",
+  "dutyMessage": "Channel Identity",
+  "image": "Icon",
+  "_component-myMovie": "------------------",
+  "myMovie": {
+    "lessonPlan": " My Lesson Plans",
+    "material": " My Materials",
+    "generalObsrv": "General Observation"
+  },
+  "_component-userInfo": "------------------",
+  "logout": "Log out",
+  "user": {
+    "name": "Name",
+    "teamModelId": "ID",
+    "defaultChannel": "Default Channel",
+    "noChannel": "Not set",
+    "setChannel": "Set Channel",
+    "accountSetting": "Account Setting",
+    "msg": {
+      "updating": "Updating..."
+    }
+  },
+  "channels": {
+    "joined": "Joined Channels",
+    "subscribed": "Subscribed Channels",
+    "invited": "Invitation Notification",
+    "my": "My Channels",
+    "personalFilm": "My Sokrates",
+    "my-movie": "My Videos"
+  },
+  "notifications": {
+    "title": "My Notifications",
+    "apply": "Apply"
+  },
+  "comments": {
+    "title": "My Comments",
+    "col": {
+      "index": "No.",
+      "lessonName": "Lesson Name",
+      "teacher": "Teacher",
+      "time": "Time",
+      "tag": "Tag",
+      "comment": "Comment",
+      "date": "Date",
+      "attachment": "Attachment",
+      "link": "Link"
+    },
+    "clipboard": {
+      "success": "Copied to Clipboard",
+      "error": "Error"
+    },
+    "filter": {
+      "search": "Search in Comment..."
+    }
+  },
+  "playlists": {
+    "mine": "My Fragments List",
+    "favorite": "My Favorites",
+    "subscribed": "Subscribed Playlists"
+  },
+  "_component-login": "------------------",
+  "login": "Log in",
+  "message": {
+    "login": "For protecting the creator rights, please login TEAM Model account."
+  },
+  "_component-default-channel-prompt": "------------------",
+  "defaultChannelPrompt": {
+    "msg": "Would you like to join the TBSL School to get full Sokrates lessons and experience?",
+    "btnYes": "YES",
+    "btnNo": "NO"
+  },
+  "observation": {
+    "observation": "Print",
+    "observation_1": "Sokrates Lesson Observation Form",
+    "observation_2": "Lesson Name",
+    "observation_3": "Teacher",
+    "observation_4": "TEAM Model ID",
+    "observation_5": "Lecture Date",
+    "observation_6": "Lecture Time",
+    "observation_7": "Place",
+    "observation_8": "Channel Name",
+    "observation_9": "Course Name",
+    "observation_10": "Students",
+    "observation_11": "Lesson Res.",
+    "observation_12": "1、Description",
+    "observation_13": "2、Lesson Observation List",
+    "observation_14": "Observers",
+    "observation_15": "Course Core",
+    "observation_16": "Observation Focus",
+    "observation_17": "Comments",
+    "observation_18": "Time",
+    "observation_19": "Name",
+    "observation_20": "Tag",
+    "observation_21": "Comment",
+    "observation_22": "Attachment",
+    "observation_23": "3、Attachment",
+    "observation_24": "Observation Form",
+    "observation_25": "4、Report",
+    "observation_26": "per person",
+    "observation_27": "Student",
+    "observation_28": "Student Feedback",
+    "observation_30": "5、Sokrates Teaching Method Application (P) - {year} Global Norm Reference Table",
+    "observation_norm_table_col": {
+      "item": {
+        "title": "Item",
+        "norm": "Global Norm ({year})",
+        "content": "Current Lesson"
+      },
+      "group": {
+        "teaching_method_app": {
+          "title": "Pedagogical Applications",
+          "item_1": "P1 Group Learning",
+          "item_2": "P2 Whole Class Interaction",
+          "item_3": "P3 Student-Centered Decision",
+          "item_4": "P4 Whole Class Assessment",
+          "item_5": "P5 Individual Learning",
+          "item_6": "P6 Multiple Assessment"
+        },
+        "diff": {
+          "title": "Differentiated Instruction",
+          "item_1": "Sync. Differentiation"
+        },
+        "consolidation": {
+          "title": "Technological Interaction & Pedagogical Application",
+          "item_1": "T Index",
+          "item_2": "P index"
+        },
+        "feedback": "Feedback Frequencies"
+      }
+    },
+    "observation_attachment": {
+      "img": "Image",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "sokratesLink": "Participate in the Sokrates Classroom Observation",
+  "qrCodeHint": "Scan the QR code for Sokrates Classroom Observation",
+  "iesLink": "Go to TEAM Model Cloud IES5",
+  "globalManagement": "Management",
+  "activityChannel": {
+    "introduction": "Introduction",
+    "description": "Description",
+    "currentStatus": "Activity Status",
+    "submissionStatus": "Submission Status",
+    "taskStatus": "Task(s)",
+    "userStatus": {
+      "empty": "No submission",
+      "submitted": "Video Submitted"
+    },
+    "activityStatus": {
+      "activity": {
+        "registration": {
+          "title": "Registration",
+          "subTitle": ""
+        },
+        "submission": {
+          "title": "Submission",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "Reviewing",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "Announcement",
+          "subTitle": ""
+        }
+      },
+      "training": {
+        "registration": {
+          "title": "Authorization",
+          "subTitle": "Apply to participate in the training activity and obtain a HiTeach training license"
+        },
+        "submission": {
+          "title": "Implementation",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "Reviewing",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "Certification",
+          "subTitle": ""
+        }
+      }
+    },
+    "deadline": "Deadline",
+    "searching": "Searching...",
+    "submissionReminder": "Before submitting, please confirm that the video and resources meet the needs of the activity, respect intellectual property rights, and protect the rights of original creators",
+    "submitSelectedVideo": "Submit the Video",
+    "removeSelectedVideo": "Cancel",
+    "instruction": {
+      "title": "Video Submission",
+      "option1": "Please select a video from the [Eligible Videos] area below to submit.",
+      "option2": "If your wanted video is not found in [Eligible Videos]. Please go to the [My Sokrates] -> [My Videos] area to add Material and TPC Plan, and then Submit the video for its eligible status.",
+      "option3": "Please Record or Upload a lesson in the AI Terminal and Add Material and TPC Plan before submitting a video"
+    },
+    "type": "Type",
+    "class": "Class",
+    "myVideos": "Eligible Videos",
+    "searchVideo": "Search for Video...",
+    "eligibilityRequirement": {
+      "title": "Requirements",
+      "msg": {
+        "hasMaterial": "A video MUST have [Material]",
+        "hasTPC": "A video MUST have [TPC Plan]",
+        "isDoubleGreen": "A video MUST meet [Double-Green-Light] standard"
+      }
+    },
+    "selectVideo": "Add Video",
+    "reviewingComponent": {
+      "col": {
+        "index": "No.",
+        "video": "Video",
+        "type": "Type",
+        "class": "Class",
+        "reviewStatus": "Review Status"
+      },
+      "cell": {
+        "pending": "Pending",
+        "reviewed": "Reviewed"
+      }
+    },
+    "modal": {
+      "submission": {
+        "confirmation": "Would you like to submit the video?",
+        "desc": "After the submission, it will enter the review status, and the video can no longer be edited."
+      },
+      "deletion": {
+        "confirmation": "Would you like to delete this video?",
+        "desc": ""
+      },
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "msg": {
+      "success": "Success",
+      "error": "Error",
+      "missing": "Data Not Found",
+      "notAllowed": "Not Allowed",
+      "alreadySubmitted": "This video has already been submitted",
+      "fullParticipants": "The quota of participants is full",
+      "joined": "You have successfully joined the activity",
+      "HiTeachLicense": "HiTeach license",
+      "registration": "Join the activity",
+      "review": "During the review process",
+      "end": "The Activity has ended. Thank you for your participation!!",
+      "completion": "Task(s) Completed",
+      "isOver": "The deadline has passed"
+    }
+  },
+  "contentReview": {
+    "pending": {
+      "title": "Pending-Review Videos",
+      "btn": "Scores"
+    },
+    "reviewed": {
+      "title": "Reviewed Videos",
+      "btn": "Already Reviewed",
+      "editBtn": "Edit"
+    },
+    "deadline": "Deadline",
+    "msg": {
+      "success": "Success",
+      "error": "Error",
+      "empty": "No Videos",
+      "missing": "Data Not Found",
+      "loading": "Loading..."
+    },
+    "modal": {
+      "title": "Video Review",
+      "inputMode": {
+        "single": "Single",
+        "all": "All"
+      },
+      "scoreRange": "Scores (0-100)",
+      "contentPractice": "Content Practice",
+      "teachingProcess": "Teaching Process",
+      "teachingDesign": "Teaching Design",
+      "innovation": "Innovation",
+      "teachingApplication": "Teaching Application",
+      "teachingEffect": "Teaching Effect",
+      "comment": "Comment",
+      "commentHint": "Maximum {wordLimit} words",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    }
+  },
+  "qrcode": {
+    "shares": "Scan the QR Code"
+  },
+  "_component-obsrv-class": "------------------",
+  "genObsrvClass": {
+    "title": "Sokrates Observation",
+    "btn": "Start Sokrates Observation Class",
+    "sync": {
+      "title": "Synchronous Observation",
+      "desc": "Synchronous Observation: Make discussion before uploading video",
+      "note": "Click on the icon to start a lesson"
+    },
+    "async": {
+      "title": "Asynchronous Observation",
+      "desc": "Asynchronous Observation: Upload video before discussion",
+      "note": "Upload video:"
+    }
+  },
+  "obsrvClass": {
+    "title": "Sokrates Observation Class",
+    "input": {
+      "channel": "Channel",
+      "lessonName": "Lesson Name",
+      "teacher": "Teacher",
+      "lessonSharing": "Lesson Sharing",
+      "classification": "Classification",
+      "subject": "Subject",
+      "grade": "Grade",
+      "duration": "Duration"
+    },
+    "choiceInput": {
+      "lessonSharing": {
+        "private": "Private",
+        "public": "Public in the Channel",
+        "global": "Open to all platforms"
+      },
+      "duration": {
+        "hour": "hour(s)"
+      }
+    },
+    "btn": {
+      "setup": "Set Up",
+      "back": "Back",
+      "next": "Next",
+      "start": "Start",
+      "finish": "Finish"
+    },
+    "label": {
+      "sokApp": "Sokrates Classroom App",
+      "sokAppInvitation": "Sokrates Observation Class Invitation",
+      "sokAppJoining": "Join Sokrates Observation Class",
+      "sokAppUrlJoining": "Or use URL to join",
+      "url": "URL",
+      "lessonExample": "'s lesson example",
+      "startHint": "※Please start the video recording when starting the observation class"
+    },
+    "msg": {
+      "success": "Success",
+      "error": "Error",
+      "remainingSpace": "Remaining Channel Space: ",
+      "generalObsrvAuth": "General Authorization: ",
+      "enable": "Enabled",
+      "disable": "Disabled",
+      "on": "On",
+      "off": "Off",
+      "elapsedTime": "Elapsed Time: ",
+      "startTime": "Start Time: ",
+      "endTime": "End Time: ",
+      "classNumber": "Classroom number",
+      "pinNumber": "PIN Code",
+      "obsrvNumber": "Observers",
+      "commentNumber": "Comments",
+      "setupSuccess": "Setup successfully",
+      "classStart": "Classroom has started",
+      "classEnd": "Classroom has ended",
+      "classEnding": "Classroom is about to end",
+      "extraTime": "Extra time added",
+      "confirmation": "Confimation",
+      "classEndConfirmation": "Are you sure you want to end the class?",
+      "copySuccess": "Copied to Clipboard"
+    }
+  }
+}

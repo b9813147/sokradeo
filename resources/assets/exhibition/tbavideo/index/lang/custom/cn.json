@@ -1,0 +1,524 @@
+{
+  "_component-home": "------------------",
+  "sets": {
+    "contents": {
+      "popular": "热门点阅影片",
+      "recommended": "推荐影片",
+      "newest": "最新影片"
+    },
+    "channels": {
+      "excellent": "频道",
+      "popular": "热门学院频道"
+    }
+  },
+  "_component-content": "------------------",
+  "none": "无",
+  "undefined": "未指定",
+  "operators": "操作",
+  "name": "名称",
+  "description": "描述",
+  "teacher": "授课教师",
+  "subjectField": "领域",
+  "subject": "学科",
+  "eduStage": "学段",
+  "grade": "年级",
+  "lecture_type": "授课类型",
+  "lecture_date": "授课日期",
+  "locale": "授课语言",
+  "watch": "影片",
+  "review": "评分",
+  "report": "报告",
+  "notReady": "仅本人观看",
+  "annexes": {
+    "hiTeachNote": "电子笔记",
+    "lessonPlan": "TPC教案",
+    "material": "教材课件",
+    "link": "连结",
+    "other": "其他"
+  },
+  "editorModal": {
+    "title": "编辑课例信息",
+    "contentTitle": "课例名称",
+    "teacher": "老师",
+    "habookId": "醍摩豆帐号",
+    "desc": "描述",
+    "subject": "学科",
+    "grade": "年级",
+    "courseCore": "课程脉络",
+    "observationFocus": "观课焦点",
+    "thumbnail": "视频截图",
+    "hiTeachNote": "电子笔记",
+    "lessonPlan": "TPC教案",
+    "material": "教材课件",
+    "submit": "确定",
+    "cancel": "取消",
+    "success": "更新成功",
+    "error": "操作发生错误"
+  },
+  "editorVideoModal": {
+    "title": "上传传统课例",
+    "remark": "仅限 mp4 格式 [<1.5GB]",
+    "video": "视频",
+    "success": "更新成功",
+    "error": "操作发生错误",
+    "upload": "上传",
+    "format_error": "格式错误",
+    "file_limit": "超过档案限制"
+  },
+  "tbaVideoTimePointModal": {
+    "title": "调整观议课标记时间点",
+    "subTitle": "将所有观议课标记时间点",
+    "mode": {
+      "inc": "提前",
+      "dec": "延后"
+    },
+    "seconds": "秒",
+    "cancel": "取消",
+    "submit": "确定"
+  },
+  "sokObsrvClassModal": {
+    "title": "苏格拉底观议课",
+    "btn": "启动苏格拉底观议课",
+    "sync": {
+      "title": "同步观议课",
+      "desc": "同步观议课：先议课再上传影片",
+      "note": "点击图示后开始观议课"
+    },
+    "async": {
+      "title": "非同步观议课",
+      "desc": "非同步观议课：先上传影片再议课",
+      "note": "上传影片:"
+    }
+  },
+  "baseModal": {
+    "delConfirm": "删除这些数据?",
+    "cancelBtn": "取消",
+    "delBtn": "删除"
+  },
+  "messages": {
+    "no_content": "查无苏格拉底影片",
+    "error":"操作发生错误",
+    "success":"成功",
+    "favAddSuccess": "添加到 [我的最爱影片]",
+    "favRemoveSuccess": "已从 [我的最爱影片] 删除"
+  },
+  "sokrates": "苏格拉底课例资源",
+  "_component-filtered": "------------------",
+  "base": {
+    "all": "全部"
+  },
+  "filters": {
+    "eduStage": "学段",
+    "grade": "年级",
+    "subjectField": "学科",
+    "lectureType": "类型",
+    "tbaFeature": "教法特征",
+    "year": "视频年份",
+    "no-search": "公开影片没有符合搜寻的项目 ......."
+  },
+  "_component-filter": "------------------",
+  "sorting": "排序",
+  "sorts": {
+    "hits": "点阅数",
+    "addedTime": "上架时间",
+    "tbaTechInteractIdx": "科技互动",
+    "tbaMethodAnal": "教法应用"
+  },
+  "_component-GroupChannel": "------------------",
+  "GroupChannel": "频道影片",
+  "channelTotal": "总影片数",
+  "publicChannel": "公开影片数",
+  "clickTotal": "被点阅数",
+  "videosObserved": "议课数",
+  "tbaMarkerCount": "被标记数",
+  "publicTbaMarkerCount": "我的公开标记",
+  "ownerTbaMarkerCount": "我的本人标记",
+  "doubleGreenLightTotal": "双绿灯影片",
+  "favoriteVideos": "我的最爱影片",
+  "watchHistory": "观课数",
+  "clearWatchHistory": "清除所有观课数",
+  "searchInChannel": "频道内搜寻",
+  "filterChannelTotal": "筛选影片数",
+  "expert": "专家",
+  "admin": "管理员",
+  "general": "成员",
+  "guest": "访客",
+  "rating": "分类",
+  "doubleGreenLight": "双绿灯",
+  "global": "公开",
+  "totalReviews": "标记总数",
+  "key": "序号",
+  "lessonName": "课例名称",
+  "export": "汇出",
+  "dutyMessage": "频道身份",
+  "image": "图示",
+  "_component-myMovie": "------------------",
+  "myMovie": {
+    "lessonPlan": "我的教案",
+    "material": "我的课件",
+    "generalObsrv": "通用型观议课"
+  },
+  "_component-userInfo": "------------------",
+  "logout": "登出",
+  "user": {
+    "name": "姓名",
+    "teamModelId": "用户编号",
+    "defaultChannel": "预设学校频道",
+    "setChannel": "设置频道",
+    "noChannel": "未设定",
+    "accountSetting": "帐号管理",
+    "msg": {
+      "updating": "更新中..."
+    }
+  },
+  "channels": {
+    "joined": "参与频道",
+    "subscribed": "订阅频道",
+    "invited": "邀请通知",
+    "my": "我的频道",
+    "personalFilm": "我的苏格拉底",
+    "my-movie": "我的影片"
+  },
+  "notifications": {
+    "title": "我的通知",
+    "apply": "报名/缴件"
+  },
+  "comments": {
+    "title": "我的标记",
+    "col": {
+      "index": "编号",
+      "lessonName": "课例名称",
+      "teacher": "授课教师",
+      "time": "时间点",
+      "tag": "分类",
+      "comment": "标记内容",
+      "date": "完成日期",
+      "attachment": "附件",
+      "link": "链接"
+    },
+    "clipboard": {
+      "success": "已复制到剪贴簿",
+      "error": "操作发生错误"
+    },
+    "filter": {
+      "search": "标记内容搜寻..."
+    }
+  },
+  "playlists": {
+    "mine": "我的切片清单",
+    "favorite": "我的最爱",
+    "subscribed": "订阅清单"
+  },
+  "_component-login": "------------------",
+  "login": "登入",
+  "message": {
+    "login": "为保障原创权益，请登入醍摩豆帐号观看。"
+  },
+  "_component-default-channel-prompt": "------------------",
+  "defaultChannelPrompt": {
+    "msg": "邀请您加入智连环学校频道，以取得更丰富的苏格拉底课例资源与体验",
+    "btnYes": "加入",
+    "btnNo": "不"
+  },
+  "observation": {
+    "observation": "打印",
+    "observation_1": "苏格拉底数位观议课纪录表",
+    "observation_2": "单元主题",
+    "observation_3": "授课教师",
+    "observation_4": "醍摩豆ID",
+    "observation_5": "观课日期",
+    "observation_6": "教学时间",
+    "observation_7": "教学地点",
+    "observation_8": "频道名称",
+    "observation_9": "班级课程",
+    "observation_10": "学生人数",
+    "observation_11": "课例资源",
+    "observation_12": "一、课例简介",
+    "observation_13": "二、观议课纪录",
+    "observation_14": "观课人员",
+    "observation_15": "课程脉络",
+    "observation_16": "观课焦点",
+    "observation_17": "标记数",
+    "observation_18": "时间点",
+    "observation_19": "标记人",
+    "observation_20": "分类",
+    "observation_21": "內容",
+    "observation_22": "附件",
+    "observation_23": "三、附件(观议课照片、图片、影片、录音等)",
+    "observation_24": "观议课记录表",
+    "observation_25": "四、苏格拉底报告",
+    "observation_26": "次/人",
+    "observation_27": "学生人数",
+    "observation_28": "学生反馈次数",
+    "observation_30": "五、苏格拉底教法应用(P) - {year}年全球常模参照表",
+    "observation_norm_table_col": {
+      "item": {
+        "title": "项目",
+        "norm": "全球常模({year}年)",
+        "content": "本课例"
+      },
+      "group": {
+        "teaching_method_app": {
+          "title": "教法应用",
+          "item_1": "P1小组学习",
+          "item_2": "P2全班互动",
+          "item_3": "P3生本决策",
+          "item_4": "P4全班测验",
+          "item_5": "P5个人学习",
+          "item_6": "P6多元评价"
+        },
+        "diff": {
+          "title": "差异化",
+          "item_1": "同步差异"
+        },
+        "consolidation": {
+          "title": "合并指数",
+          "item_1": "T指数",
+          "item_2": "P指数"
+        },
+        "feedback": "反馈次数"
+      }
+    },
+    "observation_attachment": {
+      "img": "照片",
+      "video": "影片",
+      "audio": "录音"
+    }
+  },
+  "sokratesLink": "参与同步苏格拉底观议课",
+  "qrCodeHint": "手机扫码同步议课",
+  "iesLink": "前往醍摩豆云平台IES5",  
+  "globalManagement": "平台管理",
+  "activityChannel": {
+    "introduction": "简介",
+    "description": "活动内容",
+    "currentStatus": "活动状态",
+    "submissionStatus": "交件状态",
+    "taskStatus": "任务",
+    "userStatus": {
+      "empty": "没有提交",
+      "submitted": "影片已缴交"
+    },
+    "activityStatus": {
+      "activity": {
+        "registration": {
+          "title": "登记",
+          "subTitle": ""
+        },
+        "submission": {
+          "title": "交件阶段",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "评审阶段",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "公布成绩",
+          "subTitle": ""
+        }
+      },
+      "training": {
+        "registration": {
+          "title": "申请授权",
+          "subTitle": "申请参加培训活动，并取得HiTeach培训授权序号"
+        },
+        "submission": {
+          "title": "实作任务",
+          "subTitle": ""
+        },
+        "reviewing": {
+          "title": "评审阶段",
+          "subTitle": ""
+        },
+        "certification": {
+          "title": "考核认证",
+          "subTitle": ""
+        }
+      }
+    },
+    "deadline": "期限",
+    "searching": "搜寻中...",
+    "submissionReminder": "缴交前请先确认影片与课例资源符合活动需求，并尊重智慧财产权，保障原创者权益",
+    "submitSelectedVideo": "确定缴交所选影片",
+    "removeSelectedVideo": "取消",
+    "instruction": {
+      "title": "缴交影片",
+      "option1": "请从下方[符合条件的影片]区，挑选影片缴交",
+      "option2": "请先到 [我的苏格拉底] -> [我的影片]区，完善苏格拉底课例资料，再进行作品缴交。",
+      "option3": "请先在AI智慧教研中心录制课例或上传课例，并完善课例资料后，再进行作品缴交"
+    },
+    "type": "类型",
+    "class": "组别",
+    "myVideos": "符合条件的影片",
+    "searchVideo": "影片搜寻...",
+    "eligibilityRequirement": {
+      "title": "规则",
+      "msg": {
+        "hasMaterial": "影片必须有 [教材课件]",
+        "hasTPC": "影片必须有 [TPC教案]",
+        "isDoubleGreen": "影片必须有 [双绿灯]"
+      }
+    },
+    "selectVideo": "加入缴交区",
+    "reviewingComponent": {
+      "col": {
+        "index": "编号",
+        "video": "影片",
+        "type": "类型",
+        "class": "组别",
+        "reviewStatus": "评审状态"
+      },
+      "cell": {
+        "pending": "待审",
+        "reviewed": "已审"
+      }
+    },
+    "modal": {
+      "submission": {
+        "confirmation": "上传这部影片?",
+        "desc": "缴交后进入审查状态，无法再更换影片提交."
+      },
+      "deletion": {
+        "confirmation": "删除这部影片?",
+        "desc": ""
+      },
+      "confirm": "确认",
+      "cancel": "取消"
+    },
+    "msg": {
+      "success": "成功",
+      "error": "错误",
+      "missing": "未找到数据",
+      "notAllowed": "不允许",
+      "alreadySubmitted": "影片已提交",
+      "fullParticipants": "参加人数已满",
+      "joined": "您已成功加入活动",
+      "HiTeachLicense": "HiTeach培训授权序号",
+      "registration": "我要参加",
+      "review": "在审查过程中",
+      "end": "活动已结束. 谢谢您的参与!!",
+      "completion": "任务完成",
+      "isOver": "截止日期已过"
+    }
+  },
+  "contentReview": {
+    "pending": {
+      "title": "待审影片",
+      "btn": "我要评分"
+    },
+    "reviewed": {
+      "title": "已审影片",
+      "btn": "已评分",
+      "editBtn": "编辑"
+    },
+    "deadline": "期限",
+    "msg": {
+      "success": "成功",
+      "error": "操作发生错误",
+      "empty": "没有影片",
+      "missing": "未找到数据",
+      "loading": "加载中..."
+    },
+    "modal": {
+      "title": "评分",
+      "inputMode": {
+        "single": "个别",
+        "all": "全部"
+      },
+      "scoreRange": "分数 (0-100)",
+      "contentPractice": "教材实践",
+      "teachingProcess": "教学过程",
+      "teachingDesign": "教学设计",
+      "innovation": "融合创新",
+      "teachingApplication": "技术应用",
+      "teachingEffect": "教学效果",
+      "comment": "评语",
+      "commentHint": "最多{wordLimit}字",
+      "submit": "确定",
+      "cancel": "取消"
+    }
+  },
+  "qrcode": {
+    "shares": "(扫码分享)"
+  },
+  "_component-obsrv-class": "------------------",
+  "genObsrvClass": {
+    "title": "苏格拉底观议课",
+    "btn": "启动苏格拉底观议课",
+    "sync": {
+      "title": "同步观议课",
+      "desc": "同步观议课：先议课再上传影片",
+      "note": "点击图示后开始观议课"
+    },
+    "async": {
+      "title": "非同步观议课",
+      "desc": "非同步观议课：先上传影片再议课",
+      "note": "上传影片:"
+    }
+  },
+  "obsrvClass": {
+    "title": "苏格拉底观议课",
+    "input": {
+      "channel": "学校频道",
+      "lessonName": "课例名称",
+      "teacher": "授课老师",
+      "lessonSharing": "课例分享",
+      "classification": "教研分类",
+      "subject": "学科",
+      "grade": "年级",
+      "duration": "观议课时长"
+    },
+    "choiceInput": {
+      "lessonSharing": {
+        "private": "不公开",
+        "public": "频道内公开",
+        "global": "全平台公开"
+      },
+      "duration": {
+        "hour": "小时"
+      }
+    },
+    "btn": {
+      "setup": "設定",
+      "back": "上",
+      "next": "下",
+      "start": "開始",
+      "finish": "結束"
+    },
+    "label": {
+      "sokApp": "苏格拉底议课APP",
+      "sokAppInvitation": " 邀请加入苏格拉底观议课",
+      "sokAppJoining": "快速加入苏格拉底观议课",
+      "sokAppUrlJoining": "或使用浏览器网址加入",
+      "url": "URL",
+      "lessonExample": "的课例",
+      "startHint": "※如有影片录制需求时，在开始观议课时请同步启动录影"
+    },
+    "msg": {
+      "success": "成功",
+      "error": "错误",
+      "remainingSpace": "频道剩余空间: ",
+      "generalObsrvAuth": "通用观议课授权: ",
+      "enable": "启用",
+      "disable": "禁用",
+      "on": "开启",
+      "off": "关闭",
+      "elapsedTime": "已进行时间: ",
+      "startTime": "开始时间: ",
+      "endTime": "预计结束时间: ",
+      "classNumber": "教室编号",
+      "pinNumber": "验证码",
+      "obsrvNumber": "观议课人数",
+      "commentNumber": "标记数",
+      "setupSuccess": "设置成功",
+      "classStart": "观议课开始",
+      "classEnd": "观议课结束",
+      "classEnding": "观议课即将结束",
+      "extraTime": "增加了额外的时间",
+      "confirmation": "确认",
+      "classEndConfirmation": "您确定要结束课程吗?",
+      "copySuccess": "内容已复制到剪贴簿"
+    }
+  }
+}

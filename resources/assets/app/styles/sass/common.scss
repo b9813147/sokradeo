@@ -1,0 +1,72 @@
+.notif-badge {
+  font-size: 10px !important;
+  background: #f64747 !important;
+  box-shadow: none !important;
+}
+
+.ivu-layout-content {
+  padding: 16px 32px;
+}
+
+.ivu-modal-vertical-center { // custom class for iview modal class-name prop
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ivu-modal {
+    top: 0;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 16px;
+
+  .langs {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+
+    select {
+      width: 128px;
+      height: 32px;
+      margin-left: 20px;
+    }
+  }
+
+  .copyright {
+    margin-top: 32px;
+  }
+}
+
+.tools {
+  height: 34px;
+  margin: 10px 0;
+
+  .items {
+    float: right;
+  }
+}
+
+.list {
+  table {
+    button {
+      padding: 2px 7px;
+      margin-right: 4px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+  }
+}
+
+.pager {
+  padding: 10px 0px;
+  text-align: right;
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}
+

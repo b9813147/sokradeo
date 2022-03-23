@@ -1,0 +1,199 @@
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 16px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 64px;
+    }
+
+    .thumb {
+        img {
+            height: 256px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+    body {
+        font-size: 16px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 64px;
+    }
+
+    .thumb {
+        img {
+            height: 192px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        font-size: 14px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 64px;
+    }
+
+    .thumb {
+        img {
+            height: 128px;
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    body {
+        font-size: 12px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 16px;
+    }
+
+    .thumb {
+        img {
+            height: 96px;
+        }
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 8px;
+    }
+
+    .thumb {
+        img {
+            height: 64px;
+        }
+    }
+
+    .header {
+        .title span,
+        .fun {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+    body {
+        font-size: 8px;
+    }
+
+    .ivu-layout-content {
+        padding: 16px 0;
+    }
+
+    .thumb {
+        img {
+            height: 32px;
+        }
+    }
+
+    .header {
+        .title span,
+        .fun {
+            display: none;
+        }
+    }
+}
+
+// 全域字型
+.ivu-form {
+    .ivu-form-item-label,
+    .ivu-form-item-content {
+        font-size: unset;
+    }
+}
+.ivu-card,
+.ivu-radio-group,
+.ivu-radio-wrapper {
+    font-size: unset;
+}
+.ivu-radio-group-button {
+    .ivu-radio-wrapper {
+        font-size: unset;
+    }
+}
+
+// 全域平面化設計
+.ivu-card,
+.ivu-collapse {
+    border-radius: unset;
+}
+
+.header {
+    height : auto;
+    padding: 0;
+
+    .ivu-menu {
+        height     : 56px;
+        line-height: 56px;
+        font-size  : 1em;
+    }
+
+    .ivu-menu-item {
+        font-size  : 1.25em;
+        white-space: nowrap;
+    }
+
+    .ivu-btn {
+        font-size: 1em;
+    }
+}
+
+.sider {
+    position: absolute;
+    height: auto;
+    background-color: transparent;
+    z-index: 100;
+  
+    border: 10px solid transparent;
+    border-radius: 25px;
+  
+    .container {
+      height: 100%;
+  
+      article {
+        width: 300px;
+        height: 100%;
+        background-color: #fff;
+      }
+    }
+  }
+
+.sider.right {
+    right: 0;
+}
+
+.sider-r-enter,
+.sider-r-leave-to {
+    transform: translateX(300px);
+}
+.sider-r-enter-active,
+.sider-r-leave-active {
+    transition: transform 0.5s;
+}
+
+.tools {
+    margin: 30px 0;
+}
+
+.thumb:hover {
+    img {
+        border: solid 1px #fff;
+    }
+}
+.ivu-menu-item {
+    margin: 0 10px;
+}

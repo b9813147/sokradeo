@@ -1,0 +1,86 @@
+.tbaplayer {
+    background-color: #374256;
+    font-family     : Microsoft JhengHei, helvetica;
+	font-size       : 14px;
+
+    textarea {
+        color           : #fff;
+        background-color: #506385;
+    }
+
+    .ivu-select-placeholder {
+        color           : #788397;
+        background-color: #374256;
+
+        &:focus {
+            color           : #788397;
+            background-color: #374256;
+        }
+    }
+
+    .tools {
+        .ivu-btn {
+            color           : #fff;
+            background-color: #3d4b66;
+            border-color    : grey;
+        }
+        .ivu-btn:hover {
+            background-color: #6a80a6;
+        }
+
+        .ivu-select-dropdown {
+            background-color: #3d4b66;
+            border-color    : #3d4b66;
+
+            .ivu-dropdown-item {
+                color: #fff;
+            }
+            .ivu-dropdown-item:hover {
+                background-color: #6a80a6;
+            }
+        }
+    }
+
+    .block,
+    .ivu-card {
+        border-color: #000;
+    }
+
+    .ivu-card-head {
+        color           : #fff;
+        background-color: #374256;
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .ivu-card-body {
+        background-color: #3D4B66;
+    }
+
+    .ivu-modal-content {
+        background-color: #3D4B66;
+
+        .ivu-modal-header,
+        .ivu-modal-header-inner {
+            color: #fff;
+        }
+    }
+
+    .block {
+        select,
+        .ivu-btn {
+            color           : #fff;
+            background-color: #3d4b66;
+            border-color    : grey;
+        }
+        .ivu-btn:hover {
+            background-color: #6a80a6;
+        }
+
+        .editable {
+            color: #fff380;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+@import "../../../../app/styles/sass/base.scss";
+@import "./editor.scss";
+@import "./activity-channel.scss";
+@import "./observation-class.scss";
+@import "./general-observation-class.scss";
+
+body {
+  background-color: #333;
+}
+
+.ivu-layout-content {
+  color: #bcbcbc;
+  background-color: #1b1b1b;
+  font-size: 1em;
+}
+
+.ivu-page {
+  .ivu-page-prev,
+  .ivu-page-next {
+    background-color: #333;
+    border-color: #999;
+  }
+
+  .ivu-page-item {
+    background-color: #999;
+  }
+
+  .ivu-page-item.ivu-page-item-active {
+    background-color: #2d8cf0;
+  }
+}
+
+.modal.flat {
+  .ivu-modal-content {
+    color: #fff;
+    background-color: #1b1b1b;
+
+    .ivu-modal-header,
+    .ivu-modal-footer {
+      border: none;
+    }
+  }
+}
+
+.card.flat {
+  background-color: #1b1b1b;
+  border: none;
+}
+
+.header {
+  .ivu-menu {
+    background-color: #080808;
+    font-size: 0.9em;
+  }
+
+  .ivu-btn {
+    color: #fff;
+    background-color: #80848f;
+    border-color: #80848f;
+  }
+
+  .ivu-btn:hover {
+    background-color: #6c757d;
+  }
+
+  .ivu-select-dropdown {
+    background-color: #80848f;
+    border-color: #80848f;
+
+    .ivu-dropdown-item {
+      color: #fff;
+    }
+    .ivu-dropdown-item:hover {
+      background-color: #999ca6;
+    }
+  }
+
+  .my-sokrates-menu {
+    background: transparent;
+    border-radius: 10px;
+  }
+
+  .searchbar-container-mobile {
+    padding: 0 20px 0 20px;
+    top: -10px;
+    line-height: 1rem;
+
+    .ivu-input {
+      // Set font-size to 16px to prevent iOS zoom in
+      font-size: 16px;
+    }
+
+  }
+}
+
+.footer {
+  color: #bcbcbc;
+  background-color: #333;
+
+  a {
+    color: #bcbcbc;
+
+    &:hover {
+      color: #e1e1e1;
+    }
+  }
+
+  select {
+    color: #f7f7f7;
+    background-color: #282828;
+    border-color: #4c4c4c;
+  }
+
+  .copyright {
+    color: #8e8e8e;
+  }
+}

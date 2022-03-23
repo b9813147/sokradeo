@@ -1,0 +1,194 @@
+.obsrv-class-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 60px 10px;
+
+  h3 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .highlight-text {
+    font-weight: bold;
+    color: #d2691e;
+  }
+
+  .big-bold-text {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .small-text {
+    font-size: 0.8em;
+  }
+
+  .medium-text {
+    font-size: 0.9em;
+  }
+
+  .hint-text {
+    color: #999;
+  }
+
+  .clickable-text {
+    cursor: pointer;
+  }
+
+  .slider-toggler {
+    text-align: center;
+    color: #c0c0c0;
+
+    border-top: #c0c0c0 1px dotted;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    cursor: pointer;
+
+    .slider-toggler-icon {
+      position: relative;
+      text-align: center;
+      color: #c0c0c0;
+      left: calc(50% - 10);
+    }
+  }
+
+  .obsrv-class-content {
+    padding: 20px 3%;
+
+    color: #060400;
+    font-size: 16px;
+
+    background: linear-gradient(
+      315deg,
+      rgba(238, 231, 234, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    border-radius: 20px;
+    box-shadow: 0 5px 14px 0 rgba(163, 144, 144, 0.7);
+
+    .obsrv-class-content-subtitle {
+      color: #207a95;
+      text-align: center;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 100%;
+    }
+
+    .obsrv-class-content-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+
+      .obsrv-class-content-overlay-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    }
+
+    .obsrv-class-content-mode {
+      padding-top: 10px;
+      text-align: center;
+
+      .obsrv-class-content-mode-item {
+        font-size: 14px;
+        text-align: left;
+        padding: 5px 10px 5px 10px;
+
+        .obsrv-class-content-mode-item-img-container {
+          text-align: center;
+
+          .obsrv-class-content-mode-item-img {
+            width: 100px;
+            height: 100px;
+
+            cursor: default;
+          }
+        }
+
+        .obsrv-class-content-mode-item-option {
+          text-align: left;
+        }
+
+        .obsrv-class-content-mode-item-radio {
+          text-align: left;
+          font-size: 14px;
+        }
+      }
+
+      .obsrv-class-content-mode-status {
+        padding: 10px;
+        border: 1px solid #818181;
+        border-radius: 5px;
+      }
+
+      .obsrv-class-content-mode-timer {
+        font-size: 14px;
+        text-align: left;
+        padding: 15px 10px 15px 10px;
+        margin: 0 15px 0 15px;
+
+        border-radius: 5px;
+        background-color: #ffffff;
+        box-shadow: 0 5px 14px 0 rgba(192, 183, 183, 0.7);
+
+        .obsrv-class-content-mode-timer-item {
+          text-align: left;
+          padding: 5px;
+        }
+
+        .obsrv-class-content-mode-timer-counter {
+          .obsrv-class-content-mode-timer-counter-icon {
+            font-size: 18px;
+            padding-left: 5px;
+            color: #000000;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .obsrv-class-content-mode-extra {
+        padding-top: 20px;
+      }
+
+      .obsrv-class-content-mode-extra-small {
+        padding: 5px 0 5px 0;
+      }
+
+      .obsrv-class-content-mode-operator {
+        padding: 15px;
+      }
+    }
+  }
+
+  /**
+      * Iview styles
+     */
+
+  .ivu-switch-checked {
+    background-color: #19be6b;
+    border-color: #19be6b;
+  }
+
+  .ivu-btn {
+    width: 150px;
+  }
+}
